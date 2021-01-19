@@ -349,6 +349,10 @@ h1 {
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .business_transform {
     background: #e1eeff;
     padding: 50px 0px;
@@ -426,78 +430,11 @@ arrow-forward-circle-outline {
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-.Work_PredictS {
+.section_trialWork {
     background-image: url(../images/predictS-Work.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.work-image {
-    width: 552px;
-}
-
-.Work_PredictS h3 {
-    font-size: 30px;
-    line-height: 41px;
-    color: #01002a;
-    font-family: NunitoSans-Regular;
-    text-align: center;
-    font-weight: 900;
-    font-size: 30px;
-    margin-top: 70px;
-}
-
-.Work_PredictS_para {
-    font-family: NunitoSans-Regular;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 20px;
-    color: #01002A;
-    margin-bottom: 35px;
-}
-
-.Work_PredictS_box1 p {
-    font-family: NunitoSans-Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #FFFFFF;
-    background: rgba(3, 78, 162, 0.87);
-    text-align: center;
-    width: 558px;
-    height: 63.66px;
-    padding: 10px;
-    margin-left: 28px
-}
-
-.Work_PredictS_box2 ul {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    width: 388px;
-    height: 350px;
-}
-
-.Work_PredictS_box2 ul li {
-    text-align: left;
-    list-style: none;
-    margin-bottom: 49px;
-    margin-left: 25px;
-    font-family: NunitoSans-Regular;
-    Font style: ExtraBold;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 21px;
-    color: #01002A;
-}
-
-.Work_PredictS_box2 ul li:first-child {
-    padding: 25px 0px 0px 0px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -698,10 +635,11 @@ arrow-forward-circle-outline {
     font-size: 30px;
     line-height: 41px;
     text-align: center;
-    padding: 20px
+    padding: 20px;
+    color: white
 }
 
-.transform_help p {
+.transform_help h6 {
     font-family: NunitoSans-Regular;
     font-style: normal;
     font-weight: normal;
@@ -713,6 +651,369 @@ arrow-forward-circle-outline {
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.casestudy_search a {
+    display: inline-block;
+    margin-top: 29px;
+    width: 223px;
+    height: 41px;
+    background: #034EA2;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    font-family: NunitoSans-Bold;
+    font-style: Bold;
+    Font size: 14px;
+    text-align: center;
+    align-items: center;
+    padding: 5px
+}
+
+.casestudy_head {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+
+}
+
+.casestudy_title {
+    background-color: greenyellow
+}
+
+.casestudy_search {
+    float: right;
+    background-color: pink;
+    margin-left: 300px
+}
+
+.Image {
+    background-color:
+
+
+}
+
+.cards_section {
+    margin-top: 30px;
+}
+
+.card1 {
+    margin: auto
+}
+
+.btn-primary {
+    background: rgba(0, 122, 255, 0.22);
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-family: OpenSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 35px;
+    /* or 269% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.card-title {
+    font-family: NunitoSans-Regular;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #01002A;
+}
+
+.card-text {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #65646A;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.section_footer {
+    background: #41414A;
+    margin-top: 55px;
+}
+
+.copyright_footer {
+    /*  border-top: 0.5px solid #7A8088;*/
+}
+
+.Main_footer {
+
+    display: flex;
+    margin-top: 45px;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 35px
+}
+
+.footer_buttons {
+    display: flex;
+}
+
+.logo_footer {
+    margin-top: 45px;
+    margin-right: 48px;
+    margin-left: 50px
+}
+
+
+
+.Main_footer ul {
+    list-style: none;
+    margin-top: 45px;
+}
+
+.Product_Suite,
+.Resources {
+    margin-right: 26px
+}
+
+
+
+.Main_footer h6 {
+    font-family: NunitoSans-ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.Main_footer ul li {
+
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer_buttons {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.register_button1 {
+    margin-right: 20px;
+    color: white
+}
+
+/*.register_button1:hover {
+    background-color: white;
+    color: #034EA2;
+}
+
+.register_button2:hover {
+    background-color: white;
+    color: #034EA2;
+}*/
+
+.register_button1 span:hover {
+    color: #034EA2;
+    background-color: white;
+}
+
+.register_button2 span:hover {
+    color: #034EA2;
+    background-color: white;
+}
+
+.register_button1 span,
+.register_button2 span {
+    font-family: NunitoSans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+}
+
+.btn-secondary1,
+.btn-secondary2 {
+    width: 97px;
+    height: 30px;
+
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.footer_links h6 {
+    margin-top: 25px;
+    margin-left: 50px;
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer_border {
+    border: 0.5px solid #7A8088;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.work_predict {
+    display: flex;
+}
+
+.workpredict_head h3 {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #01002A;
+    margin-top: 70px
+}
+
+.workpredict_head p {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #01002A;
+    margin-bottom: 30px;
+}
+
+.work_list {
+    margin-left: 25px
+}
+
+.work_list ul {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 388px;
+    height: 350px;
+}
+
+.work_list ul li {
+    text-align: lef t;
+    list-style: none;
+    margin-bottom: 49px;
+    margin-left: 25px;
+    font-family: NunitoSans-Regular;
+    Font style: ExtraBold;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+    color: #01002A;
+}
+
+.work_list ul li:first-child {
+    padding: 25px 0px 0px 0px;
+}
+
+.work_para {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: rgba(3, 78, 162, 0.87);
+    text-align: center;
+    width: 558px;
+    height: 63.66px;
+    padding: 10px;
+
+}
+
 /*--------------------------------------------------------MEDIA QUERIES--------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
@@ -726,7 +1027,8 @@ arrow-forward-circle-outline {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: aqua;
+        background-color: #F1F3FE;
+        ;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -803,6 +1105,11 @@ arrow-forward-circle-outline {
     }
 
     .platfrom_offering col {}
+
+    .work_predict {
+        display: block;
+        margin: auto
+    }
 }
 
 /*==================================================================================================================================================================================================================*/

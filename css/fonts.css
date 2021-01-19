@@ -22,3 +22,8 @@
     font-family: NunitoSans-Bold;
     src: url("../fonts/NunitoSans-Bold.ttf");
 }
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
