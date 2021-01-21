@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <title>Platform -Screen</title>
     <!-- Bootstrap CSS -->
 
@@ -89,14 +93,14 @@
     </div>
     <!------------------------------------------------------------------------------------------------------------------------------------------->
 
-    <section class="trial_steps">
+    <section class="trial_steps animate__pulse" data-aos="flip-right">
         <div class="container">
             <div class="row">
                 <div class="Image_steps-wrap">
                     <img src="images/Group%20430.png" class="trial_image">
 
 
-                    <div class="main-steps">
+                    <div class="main-steps ">
                         <div class="steps1">
                             <img src="images/Group%20364.png" class="imagestep1">
 
@@ -156,82 +160,83 @@
     <section class="platfrom_offering">
         <h3>Platfrom Offering</h3>
 
-        <div class="row" style="width: 90%; margin: auto">
+        <div class="row">
+            <div class="platfrom_offering_wrap">
 
-            <div class="col span-1-of-3 platfrom_offering-box1">
-                <div class="platfrom_steps">
-                    <div class="platform_icons">
-                        <img src="images/platfrom1.png">
-                    </div>
-                    <div class="platform_para">
-                        <h5>AutoML</h5>
-                        <p>Automate the proess of building ML models</p>
-                    </div>
-
-                </div>
-                <div class="platfrom_steps">
-                    <div class="platform_icons">
-                        <img src="images/platfrom2.png">
-                    </div>
-                    <div class="platform_para">
-                        <h5>ML project management</h5>
+                <div class="platfrom_offering-box1">
+                    <div class="platfrom_steps">
+                        <div class="platform_icons">
+                            <img src="images/platfrom1.png">
+                        </div>
+                        <div class="platform_para">
+                            <h5>AutoML</h5>
+                            <p>Automate the proess of building ML models</p>
+                        </div>
 
                     </div>
+                    <div class="platfrom_steps">
+                        <div class="platform_icons">
+                            <img src="images/platfrom2.png">
+                        </div>
+                        <div class="platform_para">
+                            <h5>ML project management</h5>
 
-                </div>
-                <div class="platfrom_steps">
-                    <div class="platform_icons">
-                        <img src="images/platfrom3.png">
+                        </div>
+
                     </div>
-                    <div class="platform_para">
-                        <h5>Explainable AI</h5>
-                        <p>Get visual explanation for model prediction</p>
-                    </div>
+                    <div class="platfrom_steps">
+                        <div class="platform_icons">
+                            <img src="images/platfrom3.png">
+                        </div>
+                        <div class="platform_para">
+                            <h5>Explainable AI</h5>
+                            <p>Get visual explanation for model prediction</p>
+                        </div>
 
-                </div>
-            </div>
-
-
-            <div class="col span-1-of-3 platfrom_offering-box2">
-                <div class="platfrom_steps2">
-                    <img src="images/Platform.png">
-                </div>
-            </div>
-
-
-            <div class="col span-1-of-3 platfrom_offering-box3">
-                <div class="platfrom_steps">
-                    <div class="platform_icons">
-                        <img src="images/platfrom4.png">
-                    </div>
-                    <div class="platform_para">
-                        <h5>AutoML</h5>
-                        <p>Automate the proess of building ML models</p>
                     </div>
                 </div>
 
-                <div class="platfrom_steps">
-                    <div class="platform_icons">
-                        <img src="images/platfrom5.png">
-                    </div>
-                    <div class="platform_para">
-                        <h5>AutoML</h5>
-                        <p>Automate the proess of building ML models</p>
+
+                <div class="platfrom_offering-box2">
+                    <div class="platfrom_steps2">
+                        <img src="images/Platform.png">
                     </div>
                 </div>
 
-                <div class="platfrom_steps">
-                    <div class="platform_icons">
-                        <img src="images/platfrom6.png">
+
+                <div class="platfrom_offering-box3">
+                    <div class="platfrom_steps">
+                        <div class="platform_icons">
+                            <img src="images/platfrom4.png">
+                        </div>
+                        <div class="platform_para">
+                            <h5>AutoML</h5>
+                            <p>Automate the proess of building ML models</p>
+                        </div>
                     </div>
-                    <div class="platform_para">
-                        <h5>AutoML</h5>
-                        <p>Automate the proess of building ML models</p>
+
+                    <div class="platfrom_steps">
+                        <div class="platform_icons">
+                            <img src="images/platfrom5.png">
+                        </div>
+                        <div class="platform_para">
+                            <h5>AutoML</h5>
+                            <p>Automate the proess of building ML models</p>
+                        </div>
+                    </div>
+
+                    <div class="platfrom_steps">
+                        <div class="platform_icons">
+                            <img src="images/platfrom6.png">
+                        </div>
+                        <div class="platform_para">
+                            <h5>AutoML</h5>
+                            <p>Automate the proess of building ML models</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -250,21 +255,27 @@
                 <div class="business_transform_img1">
 
                     <div class="col-12 col-sm-6 col-md-6 col-lg-4 t-xs-pr2">
-                        <img src="images/business1.png" class="business1">
-                        <div class="business_button">
-                            <button class="btn1">Learn More<i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="float: right;font-size:20px;margin-left: 25px;"></i></button>
+                        <div class="ImageGrid">
+                            <img src="images/business1.png" class="business1">
+                            <div class="business_button">
+                                <button class="btn1">Learn More<i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="float: right;font-size:20px;margin-left: 25px;"></i></button>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-6 col-lg-4 t-xs-pr2">
-                        <img src="images/business1.png" class="business1">
-                        <div class="business_button">
-                            <button class="btn1">Learn More<i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="float: right;font-size:20px;margin-left: 25px;"></i></button>
+                        <div class="ImageGrid">
+                            <img src="images/business1.png" class="business1">
+                            <div class="business_button">
+                                <button class="btn1">Learn More<i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="float: right;font-size:20px;margin-left: 25px;"></i></button>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-6 col-lg-4 t-xs-pr2">
-                        <img src="images/business1.png" class="business1">
-                        <div class="business_button">
-                            <button class="btn1">Learn More<i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="float: right;font-size:20px;margin-left: 25px;"></i></button>
+                        <div class="ImageGrid">
+                            <img src="images/business1.png" class="business1">
+                            <div class="business_button">
+                                <button class="btn1">Learn More<i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="float: right;font-size:20px;margin-left: 25px;"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -273,41 +284,8 @@
         </div>
     </section>
     <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <!--   <section class="trial_business_transform">
-       <div class="container">
-           <div class="row">
-               <div class="business_transform_Main">
-                   <div class="business_heading">
-                       <h3>Achieve sustained business transformation with <br>PredictSense</h3>
-                       <p class="business_transform_para">With innovation speeding in leaps and bounds, it is important to democratize technology to extract maximum business value and drive sustained digital transformation. PredictSense is an intuitive ML platform that facilitates the necessary access to technology and helps your internal teams efficiently collaborate on multiple business models with speed and scale.
-                       </p>
-                   </div>
-                   <div class="business_transform_grid">
-                       <div class="business_transform_grid1">
-                           <img src="images/business1.png" class="business1">
-                           <div class="business_button">
-                               <button class="btn1">Learn More<i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="float: right;font-size:20px;margin-left: 25px;"></i></button>
-                           </div>
-                       </div>
-                       <div class="business_transform_grid2">
-                           <img src="images/business1.png" class="business1">
-                           <div class="business_button">
-                               <button class="btn1">Learn More<i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="float: right;font-size:20px;margin-left: 25px;"></i></button>
-                           </div>
-                       </div>
-                       <div class="business_transform_grid3">
-                           <img src="images/business1.png" class="business1">
-                           <div class="business_button">
-                               <button class="btn1">Learn More<i class="fa fa-arrow-circle-o-right" aria-hidden="true" style="float: right;font-size:20px;margin-left: 25px;"></i></button>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </section>-->
-    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <section class="section_trialWork">
+
+    <section class="section_trialWork" data-aos="slide-up">
         <div class="container">
             <div class="row">
 
@@ -344,12 +322,7 @@
         <p>Enterprises across diverse industries use PredictSense to maximize their business value with the<br> power of AutoML.<br></p>
 
     </div>
-    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <!--  <section class="company_logos">
-      <div class="container">
-          <img src="images/image%2043.png" class="companys-logo">
-      </div>
-  </section>-->
+
     <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <section class="trial_companylogo">
         <div class="container">
@@ -467,66 +440,89 @@
      </div>
  </section>-->
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <section class="cards_section">
+
+    <!--
+    <section class="section_caseStudy">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 card_col1">
+                <div class="casestudy_head">
+                    <div class="casestudy_title">
+                        <h3>Case studies and blogs</h3>
+                    </div>
+                    <div class="casestudy_search">
+                        <input type="text" placeholder="Case Studies.." name="search">
+                        <a href="#">Book a Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+-->
+    <section class="section_cardtrial">
+        <div class="container">
+            <div class="row">
+                <div class="cardgrid_wrap">
+
                     <div class="card">
-                        <div class="card-body">
-                            <div class="Image"> <img src="images/card1.png" class="card1"></div>
+                        <div class="card_grid1">
+                            <div class="card-body">
+                                <div class="Image"> <img src="images/card1.png" class="card1"></div>
 
-                            <h5 class="card-title">Predictive maintenace</h5>
-                            <p class="card-text">Paython and Jupyter notebbok
-                                based interface Focus on data science and building quality models Deploy and monitor models in production effortlessly</p>
-                            <div class="button_icon" style="display: flex">
+                                <h5 class="card-title">Optimising inventory</h5>
+                                <p class="card-text">Paython and Jupyter notebbok
+                                    based interface Focus on data science and building quality models Deploy and monitor models in production effortlessly</p>
+                                <div class="button_icon" style="display: flex">
 
-                                <div class="row">
-                                    <button type="button" class="btn btn-primary">Manufacturing</button>
-                                </div>
-                                <div class="row">
-                                    <a href="#" style="margin-left: 125px"> <span> Learn More</span>
-                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                    <div class="row">
+                                        <button type="button" class="btn btn-primary">Manufacturing</button>
+
+                                        <a href="#"> <span> Learn More</span>
+                                            <i class="fa fa-long-arrow-right" style="padding: 0px" aria-hidden="true"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 card_col1">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="Image"> <img src="images/card1.png" class="card1"></div>
-                            <h5 class="card-title">Defect prediction</h5>
-                            <p class="card-text">Paython and Jupyter notebbok
-                                based interface Focus on data science and building quality models Deploy and monitor models in production effortlessly</p>
-                            <div class="button_icon" style="display: flex">
 
-                                <div class="row">
-                                    <button type="button" class="btn btn-primary">Manufacturing</button>
-                                </div>
-                                <div class="row">
-                                    <a href="#" style="margin-left: 125px"> <span> Learn More</span>
-                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <div class="card">
+                        <div class="card_grid2">
+
+                            <div class="card-body">
+                                <div class="Image"> <img src="images/card1.png" class="card1"></div>
+
+                                <h5 class="card-title">Optimising inventory</h5>
+                                <p class="card-text">Paython and Jupyter notebbok
+                                    based interface Focus on data science and building quality models Deploy and monitor models in production effortlessly</p>
+                                <div class="button_icon" style="display: flex">
+
+                                    <div class="row">
+                                        <button type="button" class="btn btn-primary">Manufacturing</button>
+
+                                        <a href="#"> <span> Learn More</span>
+                                            <i class="fa fa-long-arrow-right" style="padding: 0px" aria-hidden="true"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 card_col1">
                     <div class="card">
-                        <div class="card-body">
-                            <div class="Image"> <img src="images/card1.png" class="card1"></div>
+                        <div class="card_grid3">
+                            <div class="card-body">
+                                <div class="Image"> <img src="images/card1.png" class="card1"></div>
 
-                            <h5 class="card-title">Optimising inventory</h5>
-                            <p class="card-text">Paython and Jupyter notebbok
-                                based interface Focus on data science and building quality models Deploy and monitor models in production effortlessly</p>
-                            <div class="button_icon" style="display: flex">
+                                <h5 class="card-title">Optimising inventory</h5>
+                                <p class="card-text">Paython and Jupyter notebbok
+                                    based interface Focus on data science and building quality models Deploy and monitor models in production effortlessly</p>
 
-                                <div class="row">
-                                    <button type="button" class="btn btn-primary">Manufacturing</button>
-                                </div>
-                                <div class="row">
-                                    <a href="#" style="margin-left: 125px"> <span> Learn More</span>
-                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+
+                                <div class="button_icon" style="display: flex">
+                                    <div class="row">
+                                        <button type="button" class="btn btn-primary">Manufacturing</button>
+
+                                        <a href="#"> <span> Learn More</span>
+                                            <i class="fa fa-long-arrow-right" style="padding: 0px" aria-hidden="true"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -534,8 +530,11 @@
                 </div>
             </div>
         </div>
+
+
     </section>
-    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <section class="section_footer">
         <div class="container">
             <div class="row">
@@ -607,6 +606,12 @@
     </section>
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
     <script src="css/script.js"></script>
+    <!---------------------------------------------AOS ANIMATION SCRIPT---------------------->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
 </body>
 
 </html>
