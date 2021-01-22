@@ -1054,10 +1054,6 @@ form.example::after {
     margin: auto
 }
 
-.card-body {}
-
-.card_grid1 {}
-
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -1075,6 +1071,19 @@ form.example::after {
     width: 307px;
     height: 351px;
 }
+
+.cardTrial_head {
+    font-family: NunitoSans-SemiBold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    color: #01002A;
+    margin: auto;
+    margin-top: 50px
+}
+
+
 
 /*--------------------------------------------------------MEDIA QUERIES--------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -1232,6 +1241,15 @@ form.example::after {
     .footer_buttons {
         margin-left: 20px;
     }
+
+    .features_para p {
+        margin: 30px 0px;
+    }
+
+    .work_list ul {
+        margin: auto;
+    }
+
 }
 
 /*==================================================================================================================================================================================================================*/
