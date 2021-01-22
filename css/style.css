@@ -1178,7 +1178,8 @@ form.example::after {
 
     .work_predict {
         display: block;
-        margin: auto
+        margin: auto;
+        margin-bottom: 50px;
     }
 
 
