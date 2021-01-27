@@ -53,7 +53,37 @@
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:480px) {
+    .business_transform_img1 {
+        width: auto;
+    }
+
+    .work_image {
+
+        margin: auto
+    }
+
+    .work_list ul {
+        width: auto;
+    }
+
+    .work_list {
+        margin-left: 0px;
+    }
+
+    .awards_grid1 {
+        width: auto;
+
+    }
+
+    .award_para {
+        margin-top: 10px;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*SMALL PHONES 320 PIXELS*/
 @media only screen and (max-width:320px) {
     .card-text {
         font-size: 12px
