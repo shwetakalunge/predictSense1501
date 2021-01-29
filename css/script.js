@@ -23,3 +23,16 @@ const navSlide = () => {
 
 
 navSlide();
+
+const animeimage = document.querySelector('.imgbox');
+
+
+const mainImageAnimation = () => {
+    anime({
+        targets: '.loop',
+        translateX: 270,
+        loop: 3,
+        easing: 'easeInOutSine'
+
+    })
+}

@@ -9,6 +9,11 @@
         height: 107px;
     }
 
+    /*.overlap-ul-li ul {
+    display: block;
+    width: 100%;
+}*/
+
     .overlap-ul-li li h4 {
         margin-top: 18px;
     }
@@ -49,6 +54,27 @@
         margin-left: 70px;
     }
 
+    .overlap-content {
+        max-width: 100px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .overlap-ul-li li {
+        margin: auto;
+        width: 100%;
+        text-align: justify
+    }
+
+    .overlap-ul-li ul {
+        width: 84%;
+        display: block;
+        /* margin-left: -70px;*/
+    }
+
+    .overlap-ul-li {
+        margin-top: 00px;
+    }
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -79,6 +105,15 @@
     .award_para {
         margin-top: 10px;
     }
+
+    .overlap-ul-li ul {
+        width: 70%;
+
+    }
+
+    /*.overlap-ul-li li {
+        width: 50%;
+    }*/
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -91,5 +126,15 @@
 
     .button_icon a {
         margin-left: 20px
+    }
+
+    .overlap-ul-li li {
+        margin: auto;
+        text-align: justify
+    }
+
+    .overlap-ul-li ul {
+        width: 50%;
+
     }
 }
