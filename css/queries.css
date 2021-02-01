@@ -124,6 +124,63 @@
         width: 80%;
         padding: 0px 10px
     }
+
+    .imgbox {
+
+        margin: 20px auto
+    }
+
+    .business_heading h3 {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    .workpredict_head h3 {
+        font-size: 20px;
+        margin-top: 40px
+    }
+
+    .workpredict_head p {
+        font-size: 15px;
+    }
+
+    .image_banner h3 {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    .image_banner p {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 10px;
+    }
+
+    .cardTrial_head {
+        margin-top: 0px;
+    }
+
+    .footer_buttons {
+        display: block;
+        margin-top: 70px;
+    }
+
+    .Product_Suite {
+        margin-right: 10px;
+        margin-left: 15px
+    }
+
+    .register_button1 {
+        margin-bottom: 10px
+    }
+
+    .footer_links h6 {
+        margin-left: 0px;
+        font-size: 12px
+    }
+
+    .logo_footer {
+        padding: 10px
+    }
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -305,4 +362,9 @@
         word-break: break-all;
 
     }
+
+    .features_para p {
+        font-size: 15px;
+    }
+
 }
