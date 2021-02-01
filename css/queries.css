@@ -114,6 +114,7 @@
     .trial_image {
         width: 100%;
         margin: auto;
+        padding: 30px
     }
 
     .features_para p {
@@ -195,6 +196,25 @@
 
     .awards_section {
         height: 290px;
+    }
+
+    .steps_content1 h4,
+    .steps_content2 h4,
+    .steps_content3 h4,
+    .steps_content4 h4,
+    .steps_content5 h4 {
+        font-size: 18px;
+        line-height: 17px;
+        margin-bottom: 0px;
+    }
+
+    .steps_content1 p,
+    .steps_content2 p,
+    .steps_content3 p,
+    .steps_content4 p,
+    .steps_content5 p {
+        font-size: 14px;
+        padding: 10px 0px
     }
 }
 
