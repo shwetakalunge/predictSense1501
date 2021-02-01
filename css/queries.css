@@ -75,6 +75,72 @@
     .overlap-ul-li {
         margin-top: 00px;
     }
+
+    .companylogo_Maingrid {
+        margin: auto;
+        width: 50%
+    }
+
+    .effortless_wrap {
+        display: block
+    }
+
+    .effortless_Text {
+        width: 100%;
+        margin-top: 15px
+    }
+
+    .effortless_Text h3 {
+        font-family: NunitoSans-SemiBold;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 38px;
+        color: #01002A;
+    }
+
+    .effortless_Text p {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+
+        color: #01002A;
+    }
+
+    .effortless_grid_wrap_main {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .effortless_grid_wrap1 {
+        margin-right: 20px
+    }
+
+    .subgrid_Image1 {
+        margin-bottom: 20px;
+        background-image: url(../images/Intersect.png);
+        background-size: cover;
+        background-position: center;
+        width: 224.57px;
+        height: 205.77px;
+    }
+
+    .subgrid_Image1 h6 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 21px;
+        line-height: 26px;
+        /* or 124% */
+        width: 160px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -215,6 +281,63 @@
     .steps_content5 p {
         font-size: 14px;
         padding: 10px 0px
+    }
+
+    .companylogo_Maingrid {
+        display: grid;
+        width: 100%;
+        padding: 00px;
+        margin: auto
+    }
+
+    .companylogo_grid1,
+    .companylogo_grid2,
+    .companylogo_grid3,
+    .companylogo_grid4 {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .trial2_companylogo {
+        background: #F1F3FE;
+        height: auto;
+    }
+
+    .effortless_wrap {
+        display: block
+    }
+
+    .effortless_Text {
+        width: 100%;
+        margin-top: 15px
+    }
+
+    .effortless_Text h3 {
+        font-family: NunitoSans-SemiBold;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 38px;
+        color: #01002A;
+    }
+
+    .effortless_Text p {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+
+        color: #01002A;
+    }
+
+    .effortless_grid_wrap_main {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    .effortless_grid_wrap1 {
+        margin-right: 00px
     }
 }
 
@@ -400,6 +523,12 @@
 
     .features_para p {
         font-size: 15px;
+    }
+
+    .effortless_grid_wrap_main {
+        display: block;
+        margin: auto;
+        width: 80%;
     }
 
 }

@@ -505,6 +505,26 @@ arrow-forward-circle-outline {
     margin-top: 97px
 }
 
+.trial2_companylogo {
+    background: #F1F3FE;
+    height: 144px;
+}
+
+.companylogo_Maingrid {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.companylogo_grid1,
+.companylogo_grid2,
+.companylogo_grid3 {
+    margin-right: 35px;
+}
+
+
 /*---------------------------------------------------------------------------------------------------------------------------------------*/
 .success_heading h3 {
     font-family: NunitoSans-Regular;
@@ -1277,4 +1297,66 @@ form.example::after {
         opacity: 1;
         transform: translateX(0px);
     }
+}
+
+/*==================================================================================================================================================================================================================*/
+
+.effortless_wrap {
+    display: flex
+}
+
+.effortless_Text {
+    width: 40%;
+    margin-top: 155px
+}
+
+.effortless_Text h3 {
+    font-family: NunitoSans-SemiBold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #01002A;
+}
+
+.effortless_Text p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #01002A;
+}
+
+.effortless_grid_wrap_main {
+    display: flex;
+    margin-top: 50px;
+}
+
+.effortless_grid_wrap1 {
+    margin-right: 20px
+}
+
+.subgrid_Image1 {
+    margin-bottom: 20px;
+    background-image: url(../images/Intersect.png);
+    background-size: cover;
+    background-position: center;
+    width: 224.57px;
+    height: 205.77px;
+}
+
+.subgrid_Image1 h6 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 26px;
+    /* or 124% */
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 }
