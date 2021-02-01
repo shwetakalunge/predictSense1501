@@ -118,6 +118,7 @@
 
     .features_para p {
         font-size: 15px;
+        line-height: 20px;
     }
 
     .header_para {
@@ -142,6 +143,7 @@
 
     .workpredict_head p {
         font-size: 15px;
+        padding: 10px
     }
 
     .image_banner h3 {
