@@ -111,9 +111,11 @@
 
     }
 
-    /*.overlap-ul-li li {
-        width: 50%;
-    }*/
+    .trial_image {
+        width: 100%;
+        margin: auto;
+    }
+
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -135,6 +137,157 @@
 
     .overlap-ul-li ul {
         width: 50%;
+        background: #e0efff;
 
+
+    }
+
+    .imgbox {
+
+        margin: 20px auto
+    }
+
+    .trial_image {
+        width: 100%;
+        margin: auto;
+    }
+
+    .steps1,
+    .steps2,
+    .steps3,
+    .steps4,
+    .steps5 {
+
+        margin-bottom: 100px;
+    }
+
+    .workpredict_head h3 {
+        font-size: 20px;
+    }
+
+    .workpredict_head p {
+        font-size: 15px;
+    }
+
+    .business_heading h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .business_transform_para {
+        font-size: 15px;
+    }
+
+    .work_image {
+        margin: auto
+    }
+
+
+    .image_banner h3 {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    .image_banner p {
+        font-size: 12px;
+        line-height: 20px
+    }
+
+    .author {
+        margin-top: 5px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .blockquot {
+        font-size: 10px;
+    }
+
+    .reviews {
+        margin-bottom: 22px;
+        height: 150px;
+    }
+
+    .success_heading_para {
+        font-size: 12px;
+    }
+
+    .success_heading h3 {
+        font-size: 20px;
+    }
+
+    .success_para {
+        font-size: 12px;
+    }
+
+    .work-image {
+        display: none;
+    }
+
+    .work_para {
+        text-align: start;
+        font-size: 10px;
+    }
+
+    .work_list ul li {
+        font-size: 12px;
+        margin-bottom: 30px
+    }
+
+    .work_list ul {
+        height: auto
+    }
+
+    .awards_section {}
+
+    .award_para {
+        font-size: 10px
+    }
+
+    .transform_help h3 {
+        font-size: 20px;
+        line-height: 25px
+    }
+
+    .transform_help h6 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .cardTrial_head {
+        margin-top: 10px
+    }
+
+    .cardTrial_head h3 {
+        font-size: 20px;
+    }
+
+    .Main_footer {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .Main_footer ul {
+        margin-top: 0px
+    }
+
+    .footer_buttons {
+        margin-top: 0px;
+        margin-bottom: 20px
+    }
+
+    .footer_links h6 {
+        margin-left: 0px;
+        font-size: 12px
+    }
+
+    .social_links {
+        margin-right: 0px
+    }
+
+    .fa {
+        margin: 5px -5px
     }
 }

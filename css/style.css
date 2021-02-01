@@ -26,24 +26,27 @@ body {
 }
 
 .logo {
-    margin-left: 142px;
+    /*margin-left: 142px;*/
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 77px;
     background-color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    margin-right: 160px;
-    margin: 20px auto;
+    /* margin-right: 000px;
+ margin: 20px auto;*/
     font-family: NunitoSans-Regular;
     font-style: normal;
     font-weight: normal;
@@ -92,7 +95,7 @@ nav {
 
 .header_grid {
     display: flex;
-    margin-left: 60px
+    /* margin-left: 60px*/
 }
 
 .header_textbox {
@@ -145,7 +148,9 @@ h1 {
 .header-image {
     width: 530.37px;
     height: 342px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
 
 /*----------------Overlap Lists-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .overlap-content {
@@ -159,7 +164,7 @@ h1 {
 
 .overlap-ul-li ul {
     display: flex;
-    margin-left: 60px;
+    /*   margin-left: 60px;*/
     background: #FFFFFF;
     box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.15);
     min-width: 100px
@@ -291,12 +296,14 @@ h1 {
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .platfrom_offering {
     background: #ECEFF5;
+    padding: 70px 0px;
 }
 
 .platfrom_offering_wrap {
     display: flex;
-    margin-bottom: 70px;
-    margin-left: 160px;
+    /* margin-bottom: 70px;
+    margin-left: 160px;*/
+    margin: auto;
 }
 
 .platfrom_offering h3 {
@@ -308,7 +315,7 @@ h1 {
     font-size: 30px;
     line-height: 41px;
     color: #01002A;
-    padding: 50px 0px 0px 0px;
+    /*padding: 50px 0px 0px 0px;*/
 }
 
 .platfrom_steps {
@@ -498,6 +505,7 @@ arrow-forward-circle-outline {
     margin-top: 97px
 }
 
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
 .success_heading h3 {
     font-family: NunitoSans-Regular;
     font-style: Black;
@@ -577,6 +585,7 @@ arrow-forward-circle-outline {
 .awards_section {
     background: #F1F3FE;
     height: 260px;
+
 }
 
 .awards_section h3 {
