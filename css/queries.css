@@ -338,10 +338,14 @@
         color: #01002A;
     }
 
+    .subgrid_Image1 {
+        width: auto;
+    }
+
     .effortless_grid_wrap_main {
         display: block;
         margin: auto;
-        width: 50%;
+        width: 100%;
     }
 
     .effortless_grid_wrap1 {
