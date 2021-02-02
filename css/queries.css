@@ -546,4 +546,8 @@
     .logo {
         margin-left: 10px;
     }
+
+    .subgrid_Image1 {
+        width: auto;
+    }
 }
